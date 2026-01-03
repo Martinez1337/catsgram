@@ -20,7 +20,7 @@ public class UserService {
         return users.values();
     }
 
-    public Optional<User> findById(Long id) {
+    public Optional<User> findById(long id) {
         return Optional.ofNullable(users.get(id));
     }
 
